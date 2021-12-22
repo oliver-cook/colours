@@ -61,6 +61,7 @@ cie_colours = golden_colours.fluid.filter(x=>!x.color_index_name.includes(' / ')
 //     return [x.color_id.data.color_name, x.cie_lab_values.replace(/[Lab]\*/g,"").split(" "), x.color_id.data.hex_code]
 //     // return [x.color_id.data.color_name, x.cie_lab_values.replace(/[Lab]\*/g,"").split(" "), HEXtoRGB(x.color_id.data.hex_code)]
 // })
+// {{}}
 
 console.log(cie_colours)
 
